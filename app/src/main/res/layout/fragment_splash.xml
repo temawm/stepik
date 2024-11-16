@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#121212"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:typeface="sans"
+            android:text="Тысячи курсов\n в одном месте"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+
+        <LinearLayout
+            android:layout_marginStart="-45dp"
+            android:layout_marginTop="32dp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="1С Администрирование"
+                android:textColor="#F2F2F3" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00C853"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:rotation="-15"
+                android:text="RabbitMQ"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Трафик"
+                android:textColor="#F2F2F3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="-75dp"
+            android:layout_width="570dp"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Контент маркетинг"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="B2B маркетинг"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Google Аналитика"
+                android:textColor="#F2F2F3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="-45dp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="UX Исследователь"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Веб-аналитика"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00C853"
+                android:rotation="15"
+                android:text="Big Data"
+                android:textColor="#F2F2F3"
+                android:textSize="15sp"
+                android:typeface="sans" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="-100dp"
+            android:layout_width="600dp"
+            android:layout_height="70dp">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Геймдизайн"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:text="Веб-дизайн"
+                android:textColor="#F2F2F3"
+                android:textSize="15sp"
+                android:typeface="sans" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Cinema 4D"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Промпт инженеринг"
+                android:textColor="#F2F2F3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="-70dp"
+            android:layout_width="520dp"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Webflow"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00C853"
+                android:rotation="-15"
+                android:text="Three.js"
+                android:textColor="#F2F2F3"
+                android:textSize="15sp"
+                android:typeface="sans" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Парсинг"
+                android:textColor="#F2F2F3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#32333A4D"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Python-разработчик"
+                android:textColor="#F2F2F3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="144.dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/continueButton"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00C853"
+                android:typeface="sans"
+                android:textSize="15sp"
+                android:text="Продолжить"
+                android:textColor="#F2F2F3" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="108dp"
+                android:layout_height="4dp"
+                android:layout_margin="10dp"
+                android:background="#F2F2F3"
+                android:text="."
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
