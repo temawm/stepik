@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="140dp"
-            android:text="Авторизация"
+            android:text="Регистрация"
             android:textSize="28sp"
             android:textColor="#F2F2F3"
             android:layout_marginBottom="28dp" />
@@ -70,11 +70,33 @@
                 android:background="@android:color/transparent"/>
         </com.google.android.material.textfield.TextInputLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Повторите пароль"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_background">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confirmPasswordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите пароль еще раз"
+                android:inputType="textPassword"
+                android:textColor="#F2F2F3"
+                android:background="@android:color/transparent"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/registerButton"
             android:layout_marginBottom="16dp"
-            android:layout_marginTop="11dp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Регистрация"
@@ -86,7 +108,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/authorization_text"
+            android:text="@string/registration_text"
             android:textSize="12sp"
             android:typeface="sans"
             android:textColor="#F2F2F3"

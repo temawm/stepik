@@ -8,5 +8,6 @@
     <string name="previous">Previous</string>
 
     <string name="registration_text">Уже есть аккаунт? <font color="#12B956">Войти</font></string>
+    <string name="authorization_text">Нет аккаунта? <font color="#12B956">Регистрация\n\nЗабыл пароль</font></string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
